@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.app {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+}
+
+.search {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.listItem {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #444;
+  font-weight: 300;
+}
+
+table {
+  width: 100%;
+  margin: 50px 0px;
+  border-collapse: collapse;
+  color: #444;
+}
+
+th,
+td {
+  border: 1px solid #444;
+  text-align: left;
+  font-size: 20px;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background: #ddd;
+}
